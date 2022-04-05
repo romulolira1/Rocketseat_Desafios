@@ -10,16 +10,25 @@ img {
     border: orange 3px solid;
       
 }
-div { 
+.bar-img  
+{ 
+    background-color: bisque;
+    border: orangered 2px solid;
     margin: 0 auto;
     width: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 540px;
+    height: 640px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    color: white; 
+    color: orangered; 
+}
+.svg-img{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: brown;
 }
 
 .buttons .btn-primary{
