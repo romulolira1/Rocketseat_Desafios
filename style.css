@@ -1,0 +1,35 @@
+body {
+    background-image: url(./rubber-duck.jpg);
+
+    
+}
+img {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    border: orange 3px solid;
+      
+}
+div { 
+    margin: 0 auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 540px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white; 
+}
+
+.buttons .btn-primary{
+    text-decoration: none;
+    color: orange;
+    text-align: center;
+}
+.buttons {
+    height: 30px;
+    border: orange 2px solid;
+    background-color: orangered;
+    
+}
